@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day18.Dependsontags">
+      <class name="pom.java.Runner">
         <methods>
-          <include name="launchbrowser"/>
-          <include name="check"/>
-          <include name="credentials"/>
-          <include name="teardown"/>
-          <include name="puturl"/>
+          <include name="tc01"/>
+          <include name="bt"/>
+          <include name="at"/>
         </methods>
-      </class> <!-- Day18.Dependsontags -->
+      </class> <!-- pom.java.Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
